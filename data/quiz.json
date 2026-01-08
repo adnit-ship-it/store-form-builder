@@ -60,7 +60,7 @@
           "config": null,
           "is_template_step": false,
           "render_condition": null,
-          "step_order": 1,
+          "step_order": 2,
           "questions": [
             {
               "id": "question-2-xyz",
@@ -208,7 +208,7 @@
         {
           "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
           "form_step_id": "formstep-1-abc",
-          "step_order": 1
+          "step_order": 2
         },
         {
           "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
@@ -220,7 +220,7 @@
         {
           "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
           "form_step_id": "formstep-1-abc",
-          "progress_step_id": "progress-1-123"
+          "progress_step_id": "progress-2-456"
         },
         {
           "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
