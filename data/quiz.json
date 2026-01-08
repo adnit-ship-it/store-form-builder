@@ -63,21 +63,6 @@
           "step_order": 1,
           "questions": [
             {
-              "id": "question-1-xyz",
-              "form_step_id": "formstep-1-abc",
-              "slug": "name",
-              "type": "TEXT",
-              "question": "What is your full name?",
-              "display_question": "Full Name",
-              "placeholder": "Enter your full name",
-              "is_required": true,
-              "question_order": 1,
-              "validation": [
-                "required"
-              ],
-              "api_type": "TEXT"
-            },
-            {
               "id": "question-2-xyz",
               "form_step_id": "formstep-1-abc",
               "slug": "email",
@@ -86,10 +71,25 @@
               "display_question": "Email Address",
               "placeholder": "Enter your email",
               "is_required": true,
-              "question_order": 2,
+              "question_order": 1,
               "validation": [
                 "required",
                 "email"
+              ],
+              "api_type": "TEXT"
+            },
+            {
+              "id": "question-1-xyz",
+              "form_step_id": "formstep-1-abc",
+              "slug": "name",
+              "type": "TEXT",
+              "question": "What is your full name?",
+              "display_question": "Full Name",
+              "placeholder": "Enter your full name",
+              "is_required": true,
+              "question_order": 2,
+              "validation": [
+                "required"
               ],
               "api_type": "TEXT"
             },
