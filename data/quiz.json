@@ -52,6 +52,33 @@
       ],
       "formSteps": [
         {
+          "id": "temp-1767895463557-0xn8k3d",
+          "slug": "gender",
+          "title": "gender",
+          "heading1": "genderr",
+          "subtext": null,
+          "config": null,
+          "is_template_step": false,
+          "render_condition": null,
+          "questions": [
+            {
+              "id": "question-1767895499782",
+              "form_step_id": "temp-1767895463557-0xn8k3d",
+              "slug": "asdasd",
+              "type": "CHECKBOX",
+              "question": "gender?",
+              "display_question": null,
+              "placeholder": null,
+              "is_required": false,
+              "question_order": 1,
+              "validation": [],
+              "api_type": "TEXT"
+            }
+          ],
+          "step_order": 1,
+          "progressStepId": "progress-1-123"
+        },
+        {
           "id": "formstep-1-abc",
           "slug": "welcome",
           "title": "Welcome",
@@ -207,6 +234,11 @@
       "quizFormStepMapping": [
         {
           "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
+          "form_step_id": "temp-1767895463557-0xn8k3d",
+          "step_order": 1
+        },
+        {
+          "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
           "form_step_id": "formstep-1-abc",
           "step_order": 2
         },
@@ -226,6 +258,11 @@
           "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
           "form_step_id": "formstep-2-def",
           "progress_step_id": "progress-2-456"
+        },
+        {
+          "quiz_id": "quiz-123e4567-e89b-12d3-a456-426614174000",
+          "form_step_id": "temp-1767895463557-0xn8k3d",
+          "progress_step_id": "progress-1-123"
         }
       ]
     }
